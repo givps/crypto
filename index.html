@@ -33,7 +33,7 @@
   new TradingView.widget(
   {
   "width": 1346,
-  "height": 425,
+  "height": 395,
   "symbol": "BINANCE:BTCUSDT",
   "interval": "1",
   "timezone": "Etc/UTC",
@@ -128,6 +128,35 @@
   </script>
 </div>
 <!-- TradingView Widget END -->
+<footer>
+            <center>
+<style>
+		footer {
+			padding: 5px;
+			background-color: black;
+			color: white;
+			font-size: 15px;
+		}
+
+		.dark-mode {
+			background-color: white;
+			color: black;
+		}
+	</style>
+	<a>D O N A T E - B I T C O I N :</a>
+	<a id="copy">3BE1deCJcuykuTHMzmrmNYgN51E24Hix8i</a>
+<button type="button" onclick="copyEvent('copy')">Copy</button>
+
+<script>
+    function copyEvent(id)
+    {
+        var str = document.getElementById(id);
+        window.getSelection().selectAllChildren(str);
+        document.execCommand("Copy")
+    }
+</script>
+	</center>
+            </footer>
 	  <!--<center>
 	<h1>Auto refresh every 60 seconds</h1>
 	<div>
